@@ -16,7 +16,10 @@ export default function LoginForm() {
     e.preventDefault();
     setLoading(true); setError("");
     try{
-      await authService.login(email,password);
+      await authService.signIn({
+        email,
+        password,
+      });
       router.push("/dashboard");
     }catch(err:any){
       setError(err?.message ?? "Login failed.");
@@ -37,7 +40,12 @@ export default function LoginForm() {
         {error && <p className="text-sm text-red-600">{error}</p>}
         <button disabled={loading} className="w-full rounded bg-black py-3 text-white">{loading?"Signing in...":"Login"}</button>
       </form>
-      <button onClick={()=>authService.loginWithGoogle()} className="mt-4 w-full rounded border py-3">Continue with Google</button>
+      <button
+      onClick={() => authService.signInWithGoogle()}
+      className="mt-4 w-full rounded border py-3"
+>
+  Continue with Google
+</button>
       <p className="mt-6 text-center text-sm">Don't have an account? <a className="text-blue-600" href="/register">Register</a></p>
     </div>
   );

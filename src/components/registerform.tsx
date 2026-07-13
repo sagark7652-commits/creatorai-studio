@@ -25,7 +25,7 @@ export default function RegisterForm() {
 
     try {
       setLoading(true);
-      await authService.register({
+      await authService.signUp({
         fullName,
         email,
         password,

@@ -463,15 +463,17 @@ export async function POST(request: NextRequest) {
 
     return Response.json({ images, provider, creditsUsed });
   } catch (err) {
-  console.error("FULL ERROR:", err);
+  console.error("========== IMAGE GENERATION ERROR ==========");
+  console.error(err);
 
-  const message =
-    err instanceof Error ? err.message : "Generation failed";
+  if (err instanceof Error) {
+    console.error("Message:", err.message);
+    console.error("Stack:", err.stack);
+  }
 
   return Response.json(
     {
-      error: message,
-      stack: err instanceof Error ? err.stack : null,
+      error: err instanceof Error ? err.message : "Unknown error",
     },
     { status: 500 }
   );

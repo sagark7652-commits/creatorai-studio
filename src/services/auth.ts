@@ -148,23 +148,23 @@ class AuthService {
   }
 
   /**
-   * --------------------------
-   * Google Login
-   * --------------------------
-   */
-  async signInWithGoogle() {
-    const { error } =
-      await supabase.auth.signInWithOAuth({
-        provider: "google",
-        options: {
-          redirectTo:
-            window.location.origin +
-            "/dashboard",
-        },
-      });
+ * --------------------------
+ * Google Login
+ * --------------------------
+ */
+async signInWithGoogle() {
+  const { data, error } =
+    await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: {
+        redirectTo: `${window.location.origin}/auth/callback`,
+      },
+    });
 
-    if (error) throw error;
-  }
+  if (error) throw error;
+
+  return data;
+}
 
   /**
    * --------------------------

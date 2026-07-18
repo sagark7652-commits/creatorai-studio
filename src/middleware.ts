@@ -85,5 +85,7 @@ export const config = {
     "/register",
     "/forgot-password",
     "/verify-email",
+
+    "/auth/callback/:path*",
   ],
 };

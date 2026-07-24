@@ -18,8 +18,8 @@
   "timestamp": 1775004274000,
   "size": 201067,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\packaging-26.0-py313haa95532_0.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\packaging-26.0-py313haa95532_0",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\packaging-26.0-py313haa95532_0.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\packaging-26.0-py313haa95532_0",
   "files": [
     "Lib/site-packages/packaging-26.0.dist-info/METADATA",
     "Lib/site-packages/packaging-26.0.dist-info/RECORD",
@@ -356,7 +356,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\packaging-26.0-py313haa95532_0",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\packaging-26.0-py313haa95532_0",
     "type": 1
   }
 }

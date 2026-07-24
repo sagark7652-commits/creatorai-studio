@@ -19,8 +19,8 @@
   "timestamp": 1772548477000,
   "size": 271653,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\xz-5.8.2-h53af0af_0.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\xz-5.8.2-h53af0af_0",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\xz-5.8.2-h53af0af_0.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\xz-5.8.2-h53af0af_0",
   "files": [
     "Library/bin/liblzma.dll",
     "Library/bin/lzmadec.exe",
@@ -252,7 +252,7 @@
         "path_type": "hardlink",
         "sha256": "7b123ecfc02a2c3d670f1174d4ec02ce2848dc54e03ceb0f4557ddde9ae1179e",
         "size_in_bytes": 436,
-        "sha256_in_prefix": "a167edfbdf6b8cfaca032f847667af39dc97f818d60d0e1c3c6da9dbd3defd64"
+        "sha256_in_prefix": "ceebbd123f28973191db7c55e838e7da33480c699d28f46115f1bef4be147d7a"
       },
       {
         "_path": "Library/share/doc/xz/AUTHORS",
@@ -383,7 +383,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\xz-5.8.2-h53af0af_0",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\xz-5.8.2-h53af0af_0",
     "type": 1
   }
 }

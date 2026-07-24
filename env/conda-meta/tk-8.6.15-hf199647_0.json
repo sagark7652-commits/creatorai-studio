@@ -20,8 +20,8 @@
   "timestamp": 1755244051000,
   "size": 3700492,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\tk-8.6.15-hf199647_0.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\tk-8.6.15-hf199647_0",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\tk-8.6.15-hf199647_0.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\tk-8.6.15-hf199647_0",
   "files": [
     "Library/bin/tcl86t.dll",
     "Library/bin/tclsh.exe",
@@ -7344,7 +7344,7 @@
         "path_type": "hardlink",
         "sha256": "07a314b5b4649c9bc6e6cdc3b33ab5ea824e84cd52a5d468fa2eeeea107cc571",
         "size_in_bytes": 8210,
-        "sha256_in_prefix": "141d3db0aea048c6fddeda55a6bf2051706f53bbd2afb8bf03e51fb8e64e8439"
+        "sha256_in_prefix": "8467b5d1801b4ea8c0e1851b371e073ffcc0c84ee8465a138945b28a2f024f95"
       },
       {
         "_path": "Library/lib/tclooConfig.sh",
@@ -8602,7 +8602,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\tk-8.6.15-hf199647_0",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\tk-8.6.15-hf199647_0",
     "type": 1
   }
 }

@@ -17,8 +17,8 @@
   "timestamp": 1752158202000,
   "size": 634816,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\ucrt-10.0.22621.0-haa95532_0.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\ucrt-10.0.22621.0-haa95532_0",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\ucrt-10.0.22621.0-haa95532_0.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\ucrt-10.0.22621.0-haa95532_0",
   "files": [
     "Library/bin/api-ms-win-core-console-l1-1-0.dll",
     "Library/bin/api-ms-win-core-console-l1-2-0.dll",
@@ -715,7 +715,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\ucrt-10.0.22621.0-haa95532_0",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\ucrt-10.0.22621.0-haa95532_0",
     "type": 1
   }
 }

@@ -1,24 +1,24 @@
 {
   "name": "tzdata",
-  "version": "2026b",
+  "version": "2026c",
   "build": "he532380_0",
   "build_number": 0,
   "channel": "https://repo.anaconda.com/pkgs/main/noarch",
   "subdir": "noarch",
-  "fn": "tzdata-2026b-he532380_0.conda",
-  "md5": "805dd0dbe5ecde428f3c6c1afb6d94e2",
-  "url": "https://repo.anaconda.com/pkgs/main/noarch/tzdata-2026b-he532380_0.conda",
-  "sha256": "88f1c183adaf24df340d03ef5df510447973b0e80641ab1538e2d66db689c34b",
+  "fn": "tzdata-2026c-he532380_0.conda",
+  "md5": "448fc60cd3fb615bf69e242f8aa22914",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/tzdata-2026c-he532380_0.conda",
+  "sha256": "52adc4b0a9cce2ffb8ad319d54b7c940ae7961f7caf7ce6851eec4b3f542c368",
   "depends": [],
   "constrains": [],
   "noarch": "generic",
   "license": "CC-PDDC OR BSD-3-Clause",
   "package_type": "noarch_generic",
-  "timestamp": 1779900350000,
-  "size": 120718,
+  "timestamp": 1783948460000,
+  "size": 119652,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\tzdata-2026b-he532380_0.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\tzdata-2026b-he532380_0",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\tzdata-2026c-he532380_0.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\tzdata-2026c-he532380_0",
   "files": [
     "share/zoneinfo/Africa/Abidjan",
     "share/zoneinfo/Africa/Accra",
@@ -731,9 +731,9 @@
       {
         "_path": "share/zoneinfo/Africa/Casablanca",
         "path_type": "hardlink",
-        "sha256": "30ca6cf13e00c2a6c437a3c837fa643623cc04406ab5165165c78b37ef6bc4c3",
-        "size_in_bytes": 1919,
-        "sha256_in_prefix": "30ca6cf13e00c2a6c437a3c837fa643623cc04406ab5165165c78b37ef6bc4c3"
+        "sha256": "6b026cdcb00868a3dc1f24f7072a1ce3ac0c3ff83b3d847fee5f3cc01fa85f50",
+        "size_in_bytes": 793,
+        "sha256_in_prefix": "6b026cdcb00868a3dc1f24f7072a1ce3ac0c3ff83b3d847fee5f3cc01fa85f50"
       },
       {
         "_path": "share/zoneinfo/Africa/Ceuta",
@@ -780,9 +780,9 @@
       {
         "_path": "share/zoneinfo/Africa/El_Aaiun",
         "path_type": "hardlink",
-        "sha256": "ea17cb6cb7eb0f5432f5966a2d7af55f0edfcde12cfc5a9e1cddb36496545492",
-        "size_in_bytes": 1830,
-        "sha256_in_prefix": "ea17cb6cb7eb0f5432f5966a2d7af55f0edfcde12cfc5a9e1cddb36496545492"
+        "sha256": "aa0da6c9bbfb8b9526ac35f0ab9a3dd0035d69949a3eeee2b65a82a7319c51b5",
+        "size_in_bytes": 704,
+        "sha256_in_prefix": "aa0da6c9bbfb8b9526ac35f0ab9a3dd0035d69949a3eeee2b65a82a7319c51b5"
       },
       {
         "_path": "share/zoneinfo/Africa/Freetown",
@@ -1396,9 +1396,9 @@
       {
         "_path": "share/zoneinfo/America/Edmonton",
         "path_type": "hardlink",
-        "sha256": "0eada6c5c48d59984c591ab1c30b4c71aab000818cc243b3cfe996f1f26c715f",
-        "size_in_bytes": 970,
-        "sha256_in_prefix": "0eada6c5c48d59984c591ab1c30b4c71aab000818cc243b3cfe996f1f26c715f"
+        "sha256": "d52173b56a28205d8d6f792bcfa8bc07614ee0d269f7bf6e43ec91f68d410600",
+        "size_in_bytes": 1313,
+        "sha256_in_prefix": "d52173b56a28205d8d6f792bcfa8bc07614ee0d269f7bf6e43ec91f68d410600"
       },
       {
         "_path": "share/zoneinfo/America/Eirunepe",
@@ -2187,9 +2187,9 @@
       {
         "_path": "share/zoneinfo/America/Yellowknife",
         "path_type": "hardlink",
-        "sha256": "0eada6c5c48d59984c591ab1c30b4c71aab000818cc243b3cfe996f1f26c715f",
-        "size_in_bytes": 970,
-        "sha256_in_prefix": "0eada6c5c48d59984c591ab1c30b4c71aab000818cc243b3cfe996f1f26c715f"
+        "sha256": "d52173b56a28205d8d6f792bcfa8bc07614ee0d269f7bf6e43ec91f68d410600",
+        "size_in_bytes": 1313,
+        "sha256_in_prefix": "d52173b56a28205d8d6f792bcfa8bc07614ee0d269f7bf6e43ec91f68d410600"
       },
       {
         "_path": "share/zoneinfo/Antarctica/Casey",
@@ -3286,9 +3286,9 @@
       {
         "_path": "share/zoneinfo/Canada/Mountain",
         "path_type": "hardlink",
-        "sha256": "0eada6c5c48d59984c591ab1c30b4c71aab000818cc243b3cfe996f1f26c715f",
-        "size_in_bytes": 970,
-        "sha256_in_prefix": "0eada6c5c48d59984c591ab1c30b4c71aab000818cc243b3cfe996f1f26c715f"
+        "sha256": "d52173b56a28205d8d6f792bcfa8bc07614ee0d269f7bf6e43ec91f68d410600",
+        "size_in_bytes": 1313,
+        "sha256_in_prefix": "d52173b56a28205d8d6f792bcfa8bc07614ee0d269f7bf6e43ec91f68d410600"
       },
       {
         "_path": "share/zoneinfo/Canada/Newfoundland",
@@ -4833,49 +4833,49 @@
       {
         "_path": "share/zoneinfo/leap-seconds.list",
         "path_type": "hardlink",
-        "sha256": "506e737d1a950148f0daed3c75a55ad497a0f2fa1a82661a361882dd8f4b2093",
-        "size_in_bytes": 5069,
-        "sha256_in_prefix": "506e737d1a950148f0daed3c75a55ad497a0f2fa1a82661a361882dd8f4b2093"
+        "sha256": "db5a895f16853b03bfc865e8d68f9fc8710ef1740e3400c701cd46a5bbbc3433",
+        "size_in_bytes": 5065,
+        "sha256_in_prefix": "db5a895f16853b03bfc865e8d68f9fc8710ef1740e3400c701cd46a5bbbc3433"
       },
       {
         "_path": "share/zoneinfo/leapseconds",
         "path_type": "hardlink",
-        "sha256": "d6c8c0330527d995de5e50af9c07b929fa9d69d92e723cfb623b4ae6fae6d3b5",
-        "size_in_bytes": 3698,
-        "sha256_in_prefix": "d6c8c0330527d995de5e50af9c07b929fa9d69d92e723cfb623b4ae6fae6d3b5"
+        "sha256": "8f066f297a37a798d5103321957c5f5f4f1c9dda0f3d05db30b77bec3491659e",
+        "size_in_bytes": 3694,
+        "sha256_in_prefix": "8f066f297a37a798d5103321957c5f5f4f1c9dda0f3d05db30b77bec3491659e"
       },
       {
         "_path": "share/zoneinfo/tzdata.zi",
         "path_type": "hardlink",
-        "sha256": "a43d6a134e116c3e621a3587ffe4c76d5a969e75ee034700bcba71494d3f27e6",
-        "size_in_bytes": 107518,
-        "sha256_in_prefix": "a43d6a134e116c3e621a3587ffe4c76d5a969e75ee034700bcba71494d3f27e6"
+        "sha256": "6486fa5a07ba3c0ca7f8469fa404dc022cb0b58b46f355509bf78a1eb21d9aab",
+        "size_in_bytes": 104431,
+        "sha256_in_prefix": "6486fa5a07ba3c0ca7f8469fa404dc022cb0b58b46f355509bf78a1eb21d9aab"
       },
       {
         "_path": "share/zoneinfo/zone.tab",
         "path_type": "hardlink",
-        "sha256": "4d8e389e5f4b0ec0466d5b14f42e5dfb0308c4376165fcf478339afd9ddcb00c",
-        "size_in_bytes": 18818,
-        "sha256_in_prefix": "4d8e389e5f4b0ec0466d5b14f42e5dfb0308c4376165fcf478339afd9ddcb00c"
+        "sha256": "7cc78ea166261b3dedf951cdd721051460851e6fcd96c12b8e3194cf25677f21",
+        "size_in_bytes": 18813,
+        "sha256_in_prefix": "7cc78ea166261b3dedf951cdd721051460851e6fcd96c12b8e3194cf25677f21"
       },
       {
         "_path": "share/zoneinfo/zone1970.tab",
         "path_type": "hardlink",
-        "sha256": "406555546e685b34eb46c24d826b649dd35e9d202f4c13a3c621ff21eddc1583",
-        "size_in_bytes": 17601,
-        "sha256_in_prefix": "406555546e685b34eb46c24d826b649dd35e9d202f4c13a3c621ff21eddc1583"
+        "sha256": "77b5e45415fa684fcc42de3421a6b0f15cc9b2c137f258083850346e8f76eea8",
+        "size_in_bytes": 17596,
+        "sha256_in_prefix": "77b5e45415fa684fcc42de3421a6b0f15cc9b2c137f258083850346e8f76eea8"
       },
       {
         "_path": "share/zoneinfo/zonenow.tab",
         "path_type": "hardlink",
-        "sha256": "6d28648b45baafd2c01fc3bfa4ba9bfbfa3931f715c0237ea8eabfc8988d49bb",
-        "size_in_bytes": 8056,
-        "sha256_in_prefix": "6d28648b45baafd2c01fc3bfa4ba9bfbfa3931f715c0237ea8eabfc8988d49bb"
+        "sha256": "3a620abad4db9b79b868a7706a4b8809ace5d576395b19c4dd36f6403f07c7ec",
+        "size_in_bytes": 8248,
+        "sha256_in_prefix": "3a620abad4db9b79b868a7706a4b8809ace5d576395b19c4dd36f6403f07c7ec"
       }
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\tzdata-2026b-he532380_0",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\tzdata-2026c-he532380_0",
     "type": 1
   }
 }

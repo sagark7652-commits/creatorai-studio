@@ -130,49 +130,33 @@ export default function ImageGenerationPage() {
 
     try {
       const res = await fetch("/api/generate-image", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-  },
-  body: JSON.stringify({
-    prompt,
-    negPrompt,
-    model,
-    width: selectedRatio.w,
-    height: selectedRatio.h,
-    count,
-    steps,
-    guidance,
-    style,
-    ...(refImage ? { image: refImage, strength } : {}),
-  }),
-});
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          prompt,
+          negPrompt,
+          model,
+          width: selectedRatio.w,
+          height: selectedRatio.h,
+          count,
+          steps,
+          guidance,
+          style,
+          ...(refImage ? { image: refImage, strength } : {}),
+        }),
+      });
 
-const text = await res.text();
+      const data = await res.json();
 
-console.log("API Response:", text);
+      if (!res.ok) {
+        setError(data.error ?? "Generation failed");
+        return;
+      }
 
-let data;
-
-try {
-  data = JSON.parse(text);
-} catch {
-  setError("Server returned invalid JSON");
-  console.error(text);
-  return;
-}
-
-if (!res.ok) {
-  setError(data.error || "Generation failed");
-  return;
-}
-
-setImages(data.images || []);
-setProvider(data.provider || null);
-
-if (data.creditsUsed) {
-  adjustCredits(-data.creditsUsed);
-}} catch (err) {
+      setImages(data.images ?? []);
+      setProvider(data.provider ?? null);
+      if (data.creditsUsed) adjustCredits(-data.creditsUsed);
+    } catch (err) {
       setError(err instanceof Error ? err.message : "Network error");
     } finally {
       setLoading(false);
@@ -218,7 +202,7 @@ if (data.creditsUsed) {
   return (
     <div>
       <Header title="AI Image Generation" />
-      <div className="flex h-[calc(100vh-57px)] min-w-0 overflow-hidden">
+      <div className="flex h-[calc(100vh-57px)]">
 
         {/* Left panel — controls */}
         <div
@@ -434,7 +418,7 @@ if (data.creditsUsed) {
         </div>
 
         {/* Right panel — prompt + output */}
-        <div className="flex-1 min-w-0 flex flex-col overflow-hidden">
+        <div className="flex-1 flex flex-col overflow-hidden">
           {/* Prompt area */}
           <div className="p-4 space-y-3" style={{ borderBottom: "1px solid var(--border)" }}>
             <div className="relative">
@@ -492,7 +476,7 @@ if (data.creditsUsed) {
           </div>
 
           {/* Output grid */}
-          <div className="flex-1 min-w-0 overflow-auto p-4">
+          <div className="flex-1 overflow-y-auto p-4">
             {error && (
               <div className="flex items-center gap-3 mb-4 p-4 rounded-xl" style={{ background: "rgba(239,68,68,0.1)", border: "1px solid rgba(239,68,68,0.3)" }}>
                 <AlertCircle size={18} className="text-red-400 shrink-0" />

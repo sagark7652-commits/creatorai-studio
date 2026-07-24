@@ -21,8 +21,8 @@
   "timestamp": 1782817596000,
   "size": 127910,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\libexpat-2.8.2-hd7fb8db_1.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\libexpat-2.8.2-hd7fb8db_1",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\libexpat-2.8.2-hd7fb8db_1.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\libexpat-2.8.2-hd7fb8db_1",
   "files": [
     "Library/bin/expat.dll",
     "Library/bin/libexpat.dll",
@@ -135,7 +135,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\libexpat-2.8.2-hd7fb8db_1",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\libexpat-2.8.2-hd7fb8db_1",
     "type": 1
   }
 }

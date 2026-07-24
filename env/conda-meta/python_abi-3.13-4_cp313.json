@@ -17,15 +17,15 @@
   "timestamp": 1782806099000,
   "size": 5386,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\python_abi-3.13-4_cp313.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\python_abi-3.13-4_cp313",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\python_abi-3.13-4_cp313.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\python_abi-3.13-4_cp313",
   "files": [],
   "paths_data": {
     "paths_version": 1,
     "paths": []
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\python_abi-3.13-4_cp313",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\python_abi-3.13-4_cp313",
     "type": 1
   }
 }

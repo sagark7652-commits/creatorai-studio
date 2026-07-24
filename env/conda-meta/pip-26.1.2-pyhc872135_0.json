@@ -21,8 +21,8 @@
   "timestamp": 1782293775000,
   "size": 1198003,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\pip-26.1.2-pyhc872135_0.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\pip-26.1.2-pyhc872135_0",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\pip-26.1.2-pyhc872135_0.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\pip-26.1.2-pyhc872135_0",
   "files": [
     "Lib/site-packages/pip-26.1.2.dist-info/INSTALLER",
     "Lib/site-packages/pip-26.1.2.dist-info/METADATA",
@@ -5770,7 +5770,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\pip-26.1.2-pyhc872135_0",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\pip-26.1.2-pyhc872135_0",
     "type": 1
   }
 }

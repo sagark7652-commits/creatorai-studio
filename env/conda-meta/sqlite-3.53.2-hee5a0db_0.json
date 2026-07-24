@@ -19,8 +19,8 @@
   "timestamp": 1781186696000,
   "size": 967158,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\sqlite-3.53.2-hee5a0db_0.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\sqlite-3.53.2-hee5a0db_0",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\sqlite-3.53.2-hee5a0db_0.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\sqlite-3.53.2-hee5a0db_0",
   "files": [
     "Library/bin/sqlite3.dll",
     "Library/bin/sqlite3.exe",
@@ -69,7 +69,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\sqlite-3.53.2-hee5a0db_0",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\sqlite-3.53.2-hee5a0db_0",
     "type": 1
   }
 }

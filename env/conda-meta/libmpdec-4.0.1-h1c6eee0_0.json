@@ -19,8 +19,8 @@
   "timestamp": 1781726059000,
   "size": 95439,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\libmpdec-4.0.1-h1c6eee0_0.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\libmpdec-4.0.1-h1c6eee0_0",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\libmpdec-4.0.1-h1c6eee0_0.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\libmpdec-4.0.1-h1c6eee0_0",
   "files": [
     "Library/bin/libmpdec-4.dll"
   ],
@@ -37,7 +37,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\libmpdec-4.0.1-h1c6eee0_0",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\libmpdec-4.0.1-h1c6eee0_0",
     "type": 1
   }
 }

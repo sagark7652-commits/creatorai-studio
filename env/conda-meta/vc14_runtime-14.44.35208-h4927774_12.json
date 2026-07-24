@@ -19,8 +19,8 @@
   "timestamp": 1779209267000,
   "size": 679595,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\vc14_runtime-14.44.35208-h4927774_12.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\vc14_runtime-14.44.35208-h4927774_12",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\vc14_runtime-14.44.35208-h4927774_12.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\vc14_runtime-14.44.35208-h4927774_12",
   "files": [
     "Library/bin/concrt140.dll",
     "Library/bin/msvcp140.dll",
@@ -216,7 +216,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\vc14_runtime-14.44.35208-h4927774_12",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\vc14_runtime-14.44.35208-h4927774_12",
     "type": 1
   }
 }

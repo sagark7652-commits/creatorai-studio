@@ -19,8 +19,8 @@
   "timestamp": 1781629291000,
   "size": 120818,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\libffi-3.4.8-h42d73b9_3.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\libffi-3.4.8-h42d73b9_3",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\libffi-3.4.8-h42d73b9_3.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\libffi-3.4.8-h42d73b9_3",
   "files": [
     "Library/bin/ffi-7.dll",
     "Library/bin/ffi-8.dll",
@@ -117,7 +117,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\libffi-3.4.8-h42d73b9_3",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\libffi-3.4.8-h42d73b9_3",
     "type": 1
   }
 }

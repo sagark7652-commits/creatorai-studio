@@ -17,15 +17,15 @@
   "timestamp": 1779209283000,
   "size": 16822,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\vc-14.3-h2df5915_12.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\vc-14.3-h2df5915_12",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\vc-14.3-h2df5915_12.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\vc-14.3-h2df5915_12",
   "files": [],
   "paths_data": {
     "paths_version": 1,
     "paths": []
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\vc-14.3-h2df5915_12",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\vc-14.3-h2df5915_12",
     "type": 1
   }
 }

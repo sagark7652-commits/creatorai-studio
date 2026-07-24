@@ -30,8 +30,8 @@
   "timestamp": 1728336335000,
   "size": 17576959,
   "requested_spec": "python==3.13",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\python-3.13.0-hadb2040_100_cp313.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\python-3.13.0-hadb2040_100_cp313",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\python-3.13.0-hadb2040_100_cp313.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\python-3.13.0-hadb2040_100_cp313",
   "files": [
     "DLLs/_asyncio.pyd",
     "DLLs/_bz2.pyd",
@@ -14697,7 +14697,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\python-3.13.0-hadb2040_100_cp313",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\python-3.13.0-hadb2040_100_cp313",
     "type": 1
   }
 }

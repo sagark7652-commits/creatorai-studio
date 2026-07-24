@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: 0BSD
 # Author: Lasse Collin
 
-prefix=C:/Users/sansk/Desktop/creatorai-studio/env/Library
+prefix=C:/Users/User/Desktop/creatorai-studio/env/Library
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

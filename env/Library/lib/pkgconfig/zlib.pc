@@ -1,5 +1,5 @@
-prefix=C:/Users/sansk/Desktop/creatorai-studio/env/Library
-exec_prefix=C:/Users/sansk/Desktop/creatorai-studio/env/Library
+prefix=C:/Users/User/Desktop/creatorai-studio/env/Library
+exec_prefix=C:/Users/User/Desktop/creatorai-studio/env/Library
 libdir=${exec_prefix}/lib
 sharedlibdir=${exec_prefix}/lib
 includedir=${exec_prefix}/include

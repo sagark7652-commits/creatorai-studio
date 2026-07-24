@@ -18,8 +18,8 @@
   "timestamp": 1714511182000,
   "size": 91870,
   "requested_spec": "None",
-  "package_tarball_full_path": "C:\\Users\\sansk\\anaconda3\\pkgs\\bzip2-1.0.8-h2bbff1b_6.conda",
-  "extracted_package_dir": "C:\\Users\\sansk\\anaconda3\\pkgs\\bzip2-1.0.8-h2bbff1b_6",
+  "package_tarball_full_path": "C:\\Users\\User\\anaconda3\\pkgs\\bzip2-1.0.8-h2bbff1b_6.conda",
+  "extracted_package_dir": "C:\\Users\\User\\anaconda3\\pkgs\\bzip2-1.0.8-h2bbff1b_6",
   "files": [
     "Library/bin/bzip2.dll",
     "Library/bin/bzip2.exe",
@@ -116,7 +116,7 @@
     ]
   },
   "link": {
-    "source": "C:\\Users\\sansk\\anaconda3\\pkgs\\bzip2-1.0.8-h2bbff1b_6",
+    "source": "C:\\Users\\User\\anaconda3\\pkgs\\bzip2-1.0.8-h2bbff1b_6",
     "type": 1
   }
 }
